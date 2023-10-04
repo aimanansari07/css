@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission Form </title>
+
+    <!-- Html and css first program -->
+    <style>
+        body {
+            background-image: url("https://media.istockphoto.com/photos/white-old-brick-wall-background-with-lamps-picture-id1284754354?b=1&k=20&m=1284754354&s=170667a&w=0&h=pDJrJkQAt_BQnwWEDoKRMMvQtbwJjOwqLFsgy-sTrm0=");
+            border-radius: 5100px;
+            border: 100px;
+            border-color: black;
+            
+        }
+
+        h2 {
+            color: rgb(8, 46, 40);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-inline: 500px;
+
+        }
+
+        img {
+            border-radius: 50px;
+            border-style: inset;
+        }
+
+        input {
+            border-style: double;
+            border-radius: 25px;
+        }
+
+        select {
+            border-radius: 25px;
+
+            border-style: double;
+
+
+        }
+
+        button {
+            border-style: double;
+            border-color: black;
+            color: chocolate;
+            border-width: thick;
+
+
+        }
+
+        strong {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            scroll-padding: 25px;
+
+        }
+
+        label {
+            font-style: initial;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        ol {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: normal;
+            scroll-padding: 5px;
+        }
+
+        td {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-right: 15px;
+
+        }
+
+        option {
+            font-style: italic;
+        }
+
+        a {
+            color: black;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-right: 15px;
+        }
+
+        th {
+            padding-right: 5px;
+        }
+
+        div {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(8, 46, 40);
+        }
+        #table1{
+            background-color: aqua;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h2><strong>College Addmission Form </strong></h2>
+    <form action="backend.php">
+
+        <nav>
+            <div>
+                <h3><span><strong>Home Page</strong></h3>
+                </span>
+
+            </div>
+        </nav>
+
+        <label for="myname"> Enter Student Name :</label>
+        <br><input type="text" name="myname" id="myname">
+        <br><label for="mynum"> Enter Mobile Number :</label>
+        <br><input type="number" name="mynum" id="mynum">
+        <br><label for="myemail"> Enter Email id :</label>
+        <br><input type="email" name="myemail" id="myemail">
+        <br><label for="s1"> Select stream :</label>
+        <br> <select name="s1" id="s1">
+            <br>
+            <option value="Comps">Computer enginnering</option>
+            <br>
+            <option value="Mech">Mechanical engineering</option>
+            <br>
+            <option value="Civil">Civil engineering</option>
+        </select>
+        <br><br><label for="myradio"> Gender : </label>
+        Male :<input type="radio" name="myradio" id="myradio"> Female :<input type="radio" name="myradio" id="myradio">
+        <br><label for="mycheck"> Are you ssc passed :</label>
+        <input type="checkbox" name="mycheck" id="mycheck" checked>
+        <br>
+        <h3><strong> Course Details : </strong></h3>
+        <table border="2%" id="table1">
+            <thead>
+                <tr>
+                    <th><strong>Stream</strong></th>
+                    <th><strong>Duration</strong></th>
+                    <th><strong>Fees</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Computer engineering</td>
+                <td>3 years</td>
+                <td>100000</td>
+                <tr>
+
+                    <td>Mechanical engineering</td>
+                    <td>3 years</td>
+                    <td>100000</td>
+
+                </tr>
+                <tr>
+                    <td>Civil engineering</td>
+                    <td>3 years</td>
+                    <td>100000</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <ul><strong id="mystr"> <em> College Image: </em> </strong></ul>
+        <img src="https://images.pexels.com/photos/207684/pexels-photo-207684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="not found">
+        <br><br><strong id="s1"> Addmission Faculty :</strong>
+        <ol type="i">
+            <br>
+            <li>john(9856214735)</li>
+            <li>Michle(8897456715)</li>
+
+        </ol>
+        <strong>
+            <h4>Contact Us: 02222856562 </h4>
+        </strong>
+        <a href="https://www.instagram.com/?hl=en" target="_blank"> instagram</a> <a href="https://twitter.com/"
+            target="_blank"> Twitter</a>
+        <a href="https://www.facebook.com/" target="_blank"> facebook</a>
+
+        <br><label for="s1"></label>
+        <br><input type="button" value="Submit" id="s1">
+
+        <label for="rse"></label>
+        <input type="reset" value="Reset" id="res">
+
+
+    </form>
+
+</body>
+
+</html>
